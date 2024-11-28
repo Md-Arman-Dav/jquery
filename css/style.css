@@ -1,0 +1,466 @@
+:root {
+  --color-1: #c1dcdc;
+  --color-2: #1e1e1e;
+  --color-3: rgba(30, 30, 30, 0.75);
+  --color-4: rgba(30, 30, 30, 0.5);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+ol,
+span {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.loder {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #c4ebe8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Icon Styles */
+#toggleMode i {
+  font-size: 20px;
+}
+nav .products {
+  margin-left: 96px;
+}
+nav .products li a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-2);
+  margin: 24px;
+}
+
+.contacts iconify-icon {
+  margin: 0 24px;
+  color: var(--color-2);
+  font-size: 25px;
+}
+
+.border-box {
+  display: inline-block;
+  height: 24px;
+  width: 1px;
+  background-color: var(--color-2);
+}
+
+.plants {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 100%;
+  color: #000;
+}
+.selling {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--color-2);
+}
+.easiest {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-4);
+  margin: 12px 0 24px 0;
+}
+.buton {
+  background: var(--color-1);
+  border-radius: 8px;
+  padding: 12px 24px;
+  width: 168px;
+  height: 51px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-2);
+}
+.customers img {
+  border-radius: 12px;
+  width: 299px;
+  height: 363px;
+  border-radius: 15px;
+}
+.natural {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-2);
+  margin-top: 12px;
+}
+.plants {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-4);
+  margin-top: 7px;
+}
+.healthy {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 100%;
+  color: #000;
+}
+.species {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  color: var(--color-2);
+}
+.favorite {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-2);
+}
+.about {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--color-2);
+  margin-top: 113px;
+}
+.nature {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-4);
+  margin-top: 12px;
+}
+
+.variations {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  margin-top: 24px;
+}
+.category {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: var(--color-4);
+  margin-top: 12px;
+}
+.categories {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--color-2);
+  margin-top: 165px;
+}
+.looking {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-4);
+  margin-top: 12px;
+}
+.plants {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-2);
+  margin-top: 12px;
+}
+.adipiscing {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-2);
+  margin-top: 12px;
+}
+.horem {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: var(--color-4);
+  margin: 12px 0 24px 0;
+}
+.explore {
+  background: var(--color-1);
+  border-radius: 8px;
+  padding: 12px 24px;
+  width: 168px;
+  height: 51px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-2);
+  margin-top: 24px;
+}
+/*  */
+.arman {
+  background: var(--color-1);
+  width: 1440px;
+  height: 400px;
+  margin: auto;
+}
+/* ********************************************************************************************/
+footer {
+  background: var(--color-1);
+  width: 100%;
+  height: 400px;
+}
+.gREENMIND {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  margin-top: 48px;
+}
+.reserved {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-4);
+  margin-top: 24px;
+}
+.right {
+  margin-top: 24px;
+  padding: 10px;
+}
+.term {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-4);
+  margin-top: 98px;
+}
+.information {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-2);
+  margin-top: 48px;
+}
+.product li {
+  margin: 20px;
+}
+.product li a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-4);
+}
+
+.baner {
+  background-image: url(../img/baner.png);
+  width: 100%;
+  border-radius: 24px;
+  height: 512px;
+  background-size: cover;
+  padding: 48px;
+  margin-top: 40px;
+}
+.baner h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 100%;
+  color: #000;
+}
+/* .baner .plants{
+  display:block;
+} */
+.baner span {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  color: var(--color-2);
+}
+.baner .quantity {
+  width: 318px;
+  height: 75px;
+  display: flex;
+  margin-top: 24px;
+}
+.border-q {
+  width: 2px;
+  height: 100%;
+  background: var(--color-2);
+  margin: 0 48px;
+}
+.quantity .Species {
+  width: 122px;
+  height: 90%;
+}
+.input-box {
+  border-radius: 12px;
+  width: 449px;
+  height: 64px;
+  background: #fff;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+}
+.input-box input {
+  border: 0;
+  outline: none;
+  padding: 18px;
+  width: 88%;
+  border-radius: 12px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-4);
+}
+.input-box button {
+  background: var(--color-1);
+  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+  line-height: 10px;
+  border: 0;
+}
+.input-box button iconify-icon {
+  font-size: 30px;
+  text-align: center;
+}
+.right-side img {
+  width: 411px;
+}
+.looking {
+  margin-bottom: 96px;
+}
+.categories1 {
+  width: 100%;
+  background: var(--color-1);
+  height: 840px;
+  margin-bottom: 150px;
+}
+.looking1 {
+  position: relative;
+}
+.related {
+  position: absolute;
+  top: -48px;
+}
+.natural {
+  position: absolute;
+  top: 48px;
+  left: 448px;
+}
+.related1 {
+  position: absolute;
+  top: -48px;
+  right: 0;
+}
+.rivew {
+  border-radius: 12px;
+  width: 800px;
+  height: 330px;
+  background: var(--color-1);
+}
+.customers {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+  margin: 0 0 48px 0;
+}
+.jorem {
+  margin-top: 48px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-3);
+}
+
+.backTOTop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: cadetblue;
+  color: #fff;
+  border: none;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  display: none; 
+}
+
+.backTOTop:hover {
+  background-color: #5c7f7f;
+}
+.fixed {
+  width: 100%;
+  position: fixed;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #c1dcdc;
+}
+/* @media (min-width:320px) and (max-width:575px){
+
+} */
+  
